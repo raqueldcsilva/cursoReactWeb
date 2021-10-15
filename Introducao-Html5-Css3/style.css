@@ -1,5 +1,12 @@
 body{
-    background: #f0ddee;
+    background: #a365a0;
+    font-family: Verdana;
+    max-width: 900px;/*isso vai ajudar na questão da responsividade, pois não ultrapassa o valor indicado*/
+    margin: auto;
+}
+
+.container{
+    display: flex;
 }
 
 .fto{
@@ -7,14 +14,17 @@ body{
     max-height: 205px;
     border-radius: 100px;
     border: 2px solid #505050;
+    margin: 8px;
 }
 
 #title{
     color: #1c1c1c;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 #subtitle{
-    color: #494343;
+    color: #2c2c2c;
 }
 #post_title{
     color: #a36363;
@@ -27,7 +37,7 @@ body{
 .post{
     background: #f7f7f7;
     padding: 15px;
-    border: 3px solid #505050;
+    border: 3px solid #2c2c2c;
     margin-bottom: 15px;
     border-radius: 10px;
 }
@@ -35,13 +45,26 @@ body{
 .conteudo{
     margin:0%;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .imagem{
     margin-bottom: 15px;
-    max-width: 500px;
-    max-height: 300px;
+    width: 100%;
+    
     border-radius: 10px;
 }
 
+a{
+    text-decoration: line-through;
+    color: #2c2c2c;
+}
 
+.contact{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact li a {
+    text-decoration: none;
+}
